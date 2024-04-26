@@ -2,7 +2,7 @@
 Estilos para el footer y sus elementos 
  ------------------------------------*/
 #idfooter {
-  background-color: black;
+  background-color:  rgb(24, 23, 23);
   height: 15vh;
   
   } 
@@ -14,7 +14,7 @@ Estilos para el footer y sus elementos
   align-items: center;
 }
 .footer_section{
-  color: whitesmoke;
+  color: white;
   margin: auto;
   text-align: center;
 }
@@ -22,19 +22,19 @@ Estilos para el footer y sus elementos
   text-decoration: none;
 }
 .footer_section h4{
-  margin-top: 0; 
+  margin-bottom: 10px;
 }
 .img_icons{
   margin: 0;
   width: 20px;
   /* border-radius: 15% 40%; */
   /* background-color: whitesmoke; */
-  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7487%) hue-rotate(351deg) brightness(102%) contrast(92%); 
+  filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(0%) hue-rotate(286deg) brightness(103%) contrast(103%);
 }
 .img_icons:hover{
   scale: 2 2;
 }
 
 footer a{
-  padding: 10px;
+  padding-right: 30px;
 }
