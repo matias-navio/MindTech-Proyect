@@ -4,10 +4,12 @@ Estilos para el footer y sus elementos
 #idfooter {
   background-color:  rgb(24, 23, 23);
   height: 15vh;
-  
+  width: 100%;  
+  position: fixed;
   } 
 .footer_container{
   height: 15vh;
+  width: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21,7 +23,7 @@ Estilos para el footer y sus elementos
 .footer_section a{
   text-decoration: none;
 }
-.footer_section h4{
+.titulo_socials{
   margin-bottom: 10px;
 }
 .img_icons{
