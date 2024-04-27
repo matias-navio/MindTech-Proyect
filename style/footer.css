@@ -5,7 +5,8 @@ Estilos para el footer y sus elementos
   background-color:  rgb(24, 23, 23);
   height: 15vh;
   width: 100%;  
-  position: fixed;
+  position: sticky;
+  top: 0;
   } 
 .footer_container{
   height: 15vh;
@@ -42,5 +43,5 @@ footer a{
 }
 
 main p{
-  height: 75vh;
+  height: 100vh;
 }
