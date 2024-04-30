@@ -1,7 +1,7 @@
 document.getElementById("idFooter").innerHTML = `
 <div class="footer_container">
 <div class="footer_section">
-    <h4>Logo icono</h4>
+    <img class="logo-footer" src="/assets/img/logoCapMindTech.png" alt="">
 </div>
 <div class="footer_section">
     <h4>Siguenos en</h4>
