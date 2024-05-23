@@ -1,3 +1,4 @@
+
 document.getElementById("idfooter").innerHTML=`
 <div class="footer_container">
                 <div class="footer_section">

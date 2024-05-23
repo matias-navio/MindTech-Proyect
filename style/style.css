@@ -29,7 +29,7 @@
     min-width: 60%;
     background-color: rgb(24, 23, 23);
     box-shadow: 0 0 1.5rem black;
-    bottom: 0;
+    bottom: 10rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -103,14 +103,14 @@
 
 /* 1.2 ESTILOS LOGO */
 .logo{
-    width: 20%;
+    width: 30%;
     height: 100%;
 }
 
 .logo img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* 2 ESTILOS MEDIDA DE TABLET */
