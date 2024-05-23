@@ -1,52 +1,113 @@
 /* ------------------------------------
 Estilos para el footer y sus elementos 
  ------------------------------------*/
-#idfooter {
+#footer {
   background-color:  rgb(24, 23, 23);
   height: 15vh;
   width: 100%;  
   position: sticky;
-  top: 0;
-  } 
+} 
+
 .footer_container{
   height: 15vh;
-  width: auto;
+  width: 100%;
   display: flex;
 }
+
 .footer_section{
-  /* background-color: red; */
-  max-width: 30%;
   color: white;
-  margin: auto;
   text-align: center;
 }
 
 .footer_section .logo-footer{
-  width: 40%;
+  width: 30%;
   height: 100%;
   object-fit: contain;
 }
+
 .footer_section a{
   text-decoration: none;
 }
+
 .titulo_socials{
-  margin-bottom: 10px;
-}
-.img_icons{
-  margin: 0;
-  width: 20px;
-  /* border-radius: 15% 40%; */
-  /* background-color: whitesmoke; */
-  filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(0%) hue-rotate(286deg) brightness(103%) contrast(103%);
-}
-.img_icons:hover{
-  scale: 2 2;
+  margin-top: 1rem;
+  margin-bottom: .8rem;
 }
 
-footer a{
-  padding-right: 30px;
+.footer_section:nth-child(2){
+  flex-grow: 1;
+}
+
+.footer_section:nth-child(3){
+  margin: 2rem 1rem;
+}
+
+.text_copia{
+  font-size: .7rem;
+}
+
+.icons-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 3rem;
+}
+
+.img_icons{
+  width: 1.5rem;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(0%) hue-rotate(286deg) brightness(103%) contrast(103%);
+}
+
+.img_icons:hover{
+  transform: scale(1.1);
 }
 
 main p{
   height: 100vh;
+}
+
+@media screen and (max-width: 768px){
+
+  .footer_container{
+    width: 100%;
+  }
+
+  .footer_section:nth-child(1){
+    max-width: 20%;
+  }
+
+  .footer_section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+  .footer_section:nth-child(3){
+    display: flex;
+    align-items: center;
+  }
+
+  .icons-container{
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 550px){
+  
+  .footer_section:nth-child(3){
+    max-width: 30%;
+    margin: 2rem 0;
+  }
+
+  .footer_section .logo-footer{
+    width: 80%;
+  }
+
+  .titulo_socials{
+    font-size: .7rem;
+  }
+
+  .text_copia{
+    font-size: .6rem;
+  }
 }
