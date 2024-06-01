@@ -15,9 +15,9 @@ document.getElementById("header").innerHTML = `
         <li><a class="nav-item" href="#">Nosotros</a></li>
         <li><a class="nav-item" href="#">Contacto</a></li>
         <div class="container-btns-nav">
-            <li><a class="btn-nav-hover"  href="#">Registrarse</a></li>
+            <li><a class="btn-nav-hover"  href="web/registrarse.html">Registrarse</a></li>
             <hr class="separador-movile">
-            <li><a class="btn-nav-hover" href="#">Iniciar sesion</a></li>
+            <li><a class="btn-nav-hover" href="web/iniciosesion.html">Iniciar sesion</a></li>
         </div>
     </ul>
     </nav>
