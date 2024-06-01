@@ -2,6 +2,7 @@
 Estilos para el footer y sus elementos 
  ------------------------------------*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 64728623f3681009b1c75d46f96303410db25251
@@ -16,13 +17,30 @@ Estilos para el footer y sus elementos
   height: 15vh;
   width: 100%;
   display: flex;
+=======
+ body{
+  position: relative;
+  padding-bottom: 1em;
+  min-height: 100vh;
+ }
+#idFooter {
+  background-color:  rgb(24, 23, 23);
+  height: 15vh;
+  width: 100%;  
+  position: absolute;
+  bottom: 0;
+  } 
+.footer_container{
+  height: 15vh;
+  width: auto;
+  display: inline-flex;
+>>>>>>> luis_arevalo2
 }
 
 .footer_section{
   color: white;
   text-align: center;
 }
-
 .footer_section .logo-footer{
   width: 30%;
   height: 100%;
@@ -38,6 +56,7 @@ Estilos para el footer y sus elementos
   margin-bottom: .8rem;
 }
 
+<<<<<<< HEAD
 .footer_section:nth-child(2){
   flex-grow: 1;
 }
@@ -63,11 +82,16 @@ Estilos para el footer y sus elementos
 
 .img_icons:hover{
   transform: scale(1.1);
+=======
+.social_icon{
+  padding-right: 30px;
+>>>>>>> luis_arevalo2
 }
 
 main p{
   height: 100vh;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 768px){
 
@@ -113,5 +137,30 @@ main p{
 
   .text_copia{
     font-size: .6rem;
+=======
+@media screen and (max-width: 768px){
+  .footer_container{
+    flex-direction: column;
+  }
+  p{
+    font-size: small;
+  }
+  .socials_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .copyright_div, .socials_div{
+    max-width: 100%;
+  }
+  .logo-footer{
+    object-fit: contain;
+    transition: .2s linear all;
+  }
+
+  .logo-footer:hover{
+    transform: scale(1.2);
+>>>>>>> luis_arevalo2
   }
 }
